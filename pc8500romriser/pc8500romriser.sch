@@ -3,10 +3,10 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -6209,6 +6209,14 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,12.7,50.8,U1,VDD,+5V,,,"/>
+<approved hash="104,1,63.5,48.26,U1,VSS,GND,,,"/>
+<approved hash="204,1,104.14,71.12,CON1,VPP,,,,"/>
+<approved hash="103,1,137.16,66.04,CON1,NC,+5V,,,"/>
+<approved hash="104,1,137.16,71.12,CON1,VCC,+5V,,,"/>
+<approved hash="113,1,34.2191,6.64464,JP1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
